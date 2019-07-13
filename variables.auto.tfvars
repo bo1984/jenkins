@@ -7,3 +7,4 @@ jenkins_task_count=1
 deployment_max_percent=200
 deployment_min_percent=50
 public_subnets=["subnet-3f62ac5b","subnet-3f62ac5b","subnet-bd4779e4"]
+vpc_id=""
