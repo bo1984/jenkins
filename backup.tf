@@ -1,8 +1,3 @@
-data "aws_caller_identity" "current" {}
-
-output "account_id" {
-  value = "${data.aws_caller_identity.current.account_id}"
-}
 resource "aws_backup_vault" "backup_vault" {
   name        = "$Backup-Vault"
   kms_key_arn = "${aws_kms_key.backup_key.arn}"
